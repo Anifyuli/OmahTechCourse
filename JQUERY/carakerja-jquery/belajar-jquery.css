@@ -1,0 +1,26 @@
+.posisi {
+    background-color: lightblue;
+    height: 500px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 50px;
+}
+
+#tombolhide {
+    padding: 10px;
+    border: none;
+    background-color: darkorange;
+}
+
+#tombolshow {
+    padding: 10px;
+    border: none;
+    background-color: darkorange;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: greenyellow;
+}

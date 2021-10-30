@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Belajar-Event_Jquery</title>
+</head>
+
+<body>
+    <h1 class="click">Click Me !-(click)</h1>
+    <h1 class="dbclick">dbclick Me !-(dbclick)</h1>
+    <h1 class="mouseover">Event-Mouseover</h1>
+    <h1 class="mouseleave">Event-MouseLeave</h1>
+    <script>
+        $(document).ready(function () {
+
+
+
+
+
+            $('.click').click(function () {
+                $(this).css("color", "blue")
+            }); // event click
+            $('.dbclick').dblclick(function () {
+                $(this).css({
+                    'color': 'red',
+                    'font-size': '20px'
+                })
+            }); // event dbclick
+            $('.mouseover').mouseover(function () {
+                $(this).css({
+                    'color': 'green',
+                    'background-color': 'lightblue'
+                })
+            }); //event mouseover
+            $('.mouseleave').mouseleave(function () {
+                alert('Apakabar Hari ini....?')
+            })
+
+
+
+
+        });
+    </script>
+</body>
+
+</html>

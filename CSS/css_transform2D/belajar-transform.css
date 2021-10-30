@@ -1,0 +1,39 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: hotpink;
+    border: 1px solid black;
+    transform: translate(40px, 40px);
+}
+
+.rotate {
+    width: 300px;
+    height: 100px;
+    background-color: hotpink;
+    border: 1px solid black;
+    transform: rotate(155deg);
+}
+
+.scalex {
+    width: 300px;
+    height: 100px;
+    background-color: hotpink;
+    border: 1px solid black;
+    transform: scaleX(2);
+}
+
+.scaley {
+    width: 300px;
+    height: 100px;
+    background-color: hotpink;
+    border: 1px solid black;
+    transform: scaleY(2);
+}
+
+.scale {
+    width: 300px;
+    height: 100px;
+    background-color: hotpink;
+    border: 1px solid black;
+    transform: scaleY(2, 2);
+}

@@ -1,0 +1,23 @@
+p {
+
+    background-color: hotpink;
+
+    /* jarak luar */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+    /* jarang dalam */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    /* tinggi dan lebar */
+    height: 40%;
+    width: 40%;
+
+}

@@ -1,0 +1,25 @@
+div {
+    background-color: green;
+    padding: 10px;
+}
+
+.satu {
+    opacity: 0.1;
+}
+
+.dua {
+    opacity: 0.3;
+}
+
+.tiga {
+    opacity: 0.6;
+}
+
+img {
+    width: 40%;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}

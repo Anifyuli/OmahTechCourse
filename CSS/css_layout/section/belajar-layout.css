@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #666;
+    font-size: 35px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+nav {
+    float: left;
+    background-color: #ccc;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 4px;
+}
+
+nav ul li {
+    background-color: tomato;
+    margin: 2px;
+    font-size: x-large;
+
+}
+
+article {
+    padding: 20px;
+    float: right;
+    background-color: yellowgreen;
+    height: 300px;
+    width: 70%;
+}
+
+section {
+    content: "";
+    display: table;
+    clear: both;
+}

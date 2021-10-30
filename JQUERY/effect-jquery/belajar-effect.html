@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Belajar-Jquery_Effect</title>
+</head>
+
+<body>
+    <button>Klik FadeToggle</button>
+    <br>
+    <br>
+    <div id="kotak1" style="width: 50px; height: 50px; background-color: aqua;"></div>
+    <br>
+    <div id="kotak2" style="width: 50px; height: 50px; background-color: orange"></div>
+    <br>
+    <div id="kotak3" style="width: 50px; height: 50px; background-color:lightgreen"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $('#kotak1').fadeToggle();
+                $('#kotak2').fadeToggle('slow');
+                $('#kotak3').fadeToggle(3000);
+            })
+        });
+    </script>
+</body>
+
+</html>

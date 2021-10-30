@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="belajar-jquery.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Belajar-Cara_Kerja_Jquery</title>
+</head>
+
+<div class="posisi">
+    <button id="tombolhide">Tombol Hide</button>
+    <button id="tombolshow">tombol Show</button>
+    <div class="box"></div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#tombolhide").click(function () {
+            $(".box").hide()
+        });
+        $("#tombolshow").click(function () {
+            $(".box").show()
+        });
+    });
+</script>
+
+<body>
+
+</body>
+
+</html>
