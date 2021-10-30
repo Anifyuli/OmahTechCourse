@@ -1,1 +1,1 @@
-# myCodes
+# OmahTechCourse
