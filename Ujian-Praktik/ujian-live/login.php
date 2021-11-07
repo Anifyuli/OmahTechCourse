@@ -13,16 +13,16 @@
 <body class="text-center">
 
 <div class="container my-3">
-    <form class="form-signin">
+    <form class="form-signin" method="POST" action="checklogin.php">
         <img class="mb-4" src="./assets/images/favicon.svg" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Silahkan masuk ke akun Anda</h1>
-        <label for="inputEmail" class="sr-only">Nama pengguna</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Nama pengguna" required autofocus>
+        <label for="Username">Nama pengguna</label>
+        <input type="username" id="username" name="username" class="form-control" placeholder="Nama pengguna" required autofocus>
         <br>
-        <label for="inputPassword" class="sr-only">Katasandi</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Katasandi" required>
+        <label for="Password">Katasandi</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Katasandi" required>
         <div class="mt-4 mb-2">
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Masuk</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" name="login">Masuk</button>
             <p class="mt-5 mb-3 text-muted">&copy;2021. Nulis. All rights reserved</p>
         </div>
     </form>
